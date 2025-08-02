@@ -54,9 +54,5 @@ public class RecursoDTO {
 			return false;
 		RecursoDTO other = (RecursoDTO) obj;
 		return Objects.equals(id, other.id);
-	}
-	
-	
-	
-	
+	}	
 }

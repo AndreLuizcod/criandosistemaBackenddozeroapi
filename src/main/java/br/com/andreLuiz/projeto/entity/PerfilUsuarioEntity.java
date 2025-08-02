@@ -2,9 +2,8 @@ package br.com.andreLuiz.projeto.entity;
 
 import org.springframework.beans.BeanUtils;
 
-import br.com.andreLuiz.projeto.dto.PerfilDTO;
+
 import br.com.andreLuiz.projeto.dto.PerfilUsuarioDTO;
-import br.com.andreLuiz.projeto.dto.UsuarioDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,7 +16,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "ALO_PERFILUSUSARIO")
+@Table(name = "ALO_PERFILUSUARIO")
 @Getter
 @Setter
 @NoArgsConstructor
